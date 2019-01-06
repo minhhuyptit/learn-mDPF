@@ -37,7 +37,7 @@
     $htmlContent = '<h3 style="color: blue">Vermouth</h3>
                 Khóa học Online (0,100)';
     $mpdf->WriteHTML($htmlContent);
-    
+
     $mpdf->WriteText(40, 40, 'Sexy (40,40)');
 
     $mpdf->Output();
